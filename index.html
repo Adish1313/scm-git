@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistration page</title>
+</head>
+<body>
+    <form>
+    <h2> HTML FORM- Registration page</h2>
+    <p>Design a form using HTML as shown in fig 1 and 2, where first name should be mandatory filled and the form should accept a valid email id.</p>
+    <br>
+    <h4>Marking Scheme</h4>
+    <ol type="i">
+    <li>From input fields designing with red line below each 3 protion-4 marks</li>
+    <li>Validation for email and first name-2 marks</li>
+    <li>dropdown items should be in order web designer, database administrator and programmer. By default, programmer is selected- 2marks</li>
+    <li>Implementation of buttons and text area- 2 marks</li>
+    </ol>
+    <header align="center">
+        <h1>This is my form</h1>
+    </header>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <p>First Name:<input type="text" name="fname"></p>
+        <p>Last Name:<input type="text" name="lname"></p>
+    </fieldset>
+    <hr color="red">
+    <fieldset>
+        <legend>Course Info</legend>
+        <p>Course</p>
+        <input type="radio" name="Course" value="Web Desgin">Web Desgin
+        <input type="radio" name="Course" value="SQL">SQL
+        <input type="radio" name="Course" value="Programming">Programming
+        <p>Career Goal:</p>
+        <select>
+            <option>Programming</option>
+        </select>
+        <p>Describe any additional skills you have:</p>
+        <textarea name="Describe any additional skills you have" id="Describe any additional skills you have" cols="100" rows="8"></textarea>
+    </fieldset>
+<hr color="red">
+    <br>
+    <div>
+    <p>For how would you like to work with us</p>
+    <input type="checkbox" name="For how would you like to work with us" value="1 year">1 year
+    <input type="checkbox" name="For how would you like to work with us" value="Seasonal Work">Seasonal Work
+    </div>
+    <br>
+    <form>
+    <div>
+    <input type="submit" value="Enter my information">
+    <input type="Reset" value="Reset Form">
+    </div>
+</form>
+</body>
+</html>
